@@ -1,0 +1,19 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'greycliff_cfbold';
+    src: url('greycliffcf-bold-webfont.woff2') format('woff2'),
+         url('greycliffcf-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'greycliff_cflight';
+    src: url('greycliffcf-light-webfont.woff2') format('woff2'),
+         url('greycliffcf-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

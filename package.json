@@ -1,0 +1,23 @@
+{
+  "name": "teamgeek",
+  "version": "0.1.0",
+  "description": "Teamgeek splash page.",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.250",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-google-analytics": "^1.0.31",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-sitemap": "^1.2.23",
+    "gatsby-plugin-styled-components": "^2.0.11",
+    "gatsby-plugin-typography": "^1.7.18",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.2.6",
+    "typography": "^0.16.17"
+  }
+}
