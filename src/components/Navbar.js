@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import logo_p from '../../static/images/logo-p.svg';
 import logo_t from '../../static/images/logo-t.svg';
+import party_parrot from '../../static/images/parrot.gif';
 
 const gutter = '10vw';
 const spacer = '2.5rem';
@@ -151,7 +152,7 @@ class Navbar extends Component {
       <NavbarContainer>
         <Logo className={this.state.mounted ? 'mounted' : 'unmounted'}>
           <span>
-            <img src="http://cultofthepartyparrot.com/parrots/hd/parrot.gif" alt="Party or die"/>
+            <img src={party_parrot} alt="Party or die"/>
           </span>
         </Logo>
         <Social className={this.state.mounted ? 'mounted' : 'unmounted'}>
