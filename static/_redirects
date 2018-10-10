@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+https://teamgeek.io/* https://www.teamgeek.io/:splat 301!
+https://www.teamgeek.co.za/* https://www.teamgeek.io/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://priceless-raman-bfd57c.netlify.com/* https://www.teamgeek.io/:splat 301!
